@@ -23,7 +23,20 @@
                     <h4 class="relative z">Graphic Design</h4>
                 </a>
             </div>
-    </div>
+            <div class="px-4 py-4 max-w-sm overflow-hidden bg-slate-100 shadow-md rounded-md">
+                <img class="w-full rounded-md" src="project-card-lottie.png" alt="Project">
+                <div class="px-2 py-4">
+                <div class="font-bold text-xl text-left mb-2">The Coldest Sunset</div>
+            <p class="text-gray-700 text-base text-left">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+            </p>
+            </div>
+            <div class="px-6 pt-4 pb-2">
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+                </div>
+            </div>
     </section>
 
 </main>
