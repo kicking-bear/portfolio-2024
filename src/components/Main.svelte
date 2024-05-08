@@ -11,22 +11,17 @@
             <p class="text-base sm:text-lg md:text-xl">
                 I'm a <span class="text-violet-400">designer</span> who loves technology. You can find me coding using TailwindCSS, prototyping in figma, and blank on the weekdays. 3D modeling, printing, illustrating on the weekend.
             </p>
-            <div class="flex flex-col mx-auto md:flex-row justify-center lg:justify-start text-center lg:text-center gap-4 md:gap-4 lg:gap-6">
-                <!-- <a class="blueShadow lg:mr-auto text-base sm:text-lg md:text-xl Rubik relative overflow-hidden px-6 py-3 group rounded-full bg-slate-950 text-white cursor-default">
+            <div class="flex flex-col mx-auto md:flex-row justify-center lg:justify-start text-center lg:text-center bg-slate-200 gap-1 rounded-full">
+                <a class="blueShadow lg:mr-auto text-base sm:text-lg md:text-xl Rubik relative overflow-hidden px-6 py-3 group rounded-full bg-slate-950 text-white cursor-default">
                     <div class="absolute top-0 right-full w-full h-full">
                     </div>
                     <h4 class="relative z">UX/UI</h4>
-                </a> -->
+                </a>
                 
-                <a class="blueShadow lg:mr-auto text-base sm:text-lg md:text-lg Rubik relative overflow-hidden px-6 py-3 group rounded-full bg-slate-100 text-black cursor-pointer">
-                    <a class="blueShadow lg:mr-auto text-base sm:text-lg md:text-xl Rubik relative overflow-hidden px-6 py-3 group rounded-full bg-slate-950 text-white cursor-default">
-                        <div class="absolute top-0 right-full w-full h-full">
-                        </div>
-                        <h4 class="relative z">UX/UI</h4>
-                    </a>
-                    <div class="absolute top-0 right-full w-full h-full bg-slate-400 opacity-20 group-hover:translate-x-full z-0 duration-200">
+                <a class="blueShadow lg:mr-auto text-base sm:text-lg md:text-lg Rubik relative overflow-hidden px-6 py-3 group rounded-full bg-slate-200 text-black cursor-pointer">
+                    <div class="absolute top-0 right-full w-full h-full">
                     </div>
-                    <h4 class="relative z">Graphic Design</h4>
+                    <h4 class="duration-200 hover:text-violet-400">Graphic Design</h4>
                 </a>
             </div>
             <div class="flex flex-col mx-auto md:flex-row justify-center gap-6">
@@ -109,11 +104,11 @@
                             <label for="message" class="block mb-2 text-sm text-left font-medium">Your message</label>
                             <textarea id="message" rows="6" class="block p-2.5 w-full text-sm  bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..."></textarea>
                         </div>
-                        <div class="flex flex-col mx-auto md:flex row justify-left lg:justify start text-center lg:text center gap-6 md:gap-8 lg:gap-10"> 
-                            <div class="blueShadow lg:mr-auto text-base sm:text-lg md:text-lg Rubik relative overflow-hidden px-6 py-3 group rounded-full bg-slate-100 text-black cursor-pointer">
-                            <div class="absolute top-0 right-full w-full h-full bg-blue-400 opacity-20 group-hover:translate-x-full z-0 duration-200">
+                        <div class="flex flex-col mx-auto md:flex justify-center text-center lg:text center gap-6 md:gap-8 lg:gap-10"> 
+                            <div class="blueShadow lg:mr-auto text-base sm:text-lg md:text-lg Rubik relative overflow-hidden px-6 py-3 group rounded-full bg-black text-black cursor-pointer">
+                            <div class="absolute top-0 right-full w-full h-full bg-slate-400 opacity-20 group-hover:translate-x-full z-0 duration-200">
                             </div> 
-                            <button type="submit">Send message</button>
+                            <button type="submit" class="text-sm text-white">Send message</button>
                         </div>
                     </form>
                     
