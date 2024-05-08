@@ -5,26 +5,26 @@
 <main class="flex flex-col flex-1 p-4">
     <section id="introPage" class="grid grid-cols-1 lg:grid-cols-1 gap-10 py-8  sm:py-14">
         <div class="flex flex-col lg:justify-center text-center lg:text-center gap-6 md:gap-8 lg:gap-10">
-            <h2 class= "font-semibold text-4xl sm:text-5xl md:text-6xl">
+            <h2 class= "font-semibold text-4xl">
                 What are you looking for?
             </h2>
-            <p class="text-base sm:text-lg md:text-xl">
-                I'm a <span class="text-violet-400">designer</span> who loves technology. You can find me coding using TailwindCSS, prototyping in figma, and blank on the weekdays. 3D modeling, printing, illustrating on the weekend.
-            </p>
-            <div class="flex flex-col mx-auto md:flex-row justify-center lg:justify-start text-center lg:text-center bg-slate-200 gap-1 rounded-full">
-                <a class="blueShadow lg:mr-auto text-base sm:text-lg md:text-xl Rubik relative overflow-hidden px-6 py-3 group rounded-full bg-slate-950 text-white cursor-default">
+            <!-- <p class="text-base text-center sm:text-lg md:text-xl">
+                I'm a <b>designer</b> who loves technology. I pride myself on versatility and my ability to offer real value to businesses by finding creative solutions.
+            </p> -->
+            <div class="flex flex-col mx-auto md:flex-row justify-center lg:justify-start text-center lg:text-center shadow-inner bg-slate-100 gap-1 rounded-full">
+                <a class="blueShadow lg:mr-auto text-base sm:text-md md:text-md Rubik relative overflow-hidden px-6 py-3 group rounded-full bg-violet-400 text-white cursor-default">
                     <div class="absolute top-0 right-full w-full h-full">
                     </div>
                     <h4 class="relative z">UX/UI</h4>
                 </a>
                 
-                <a class="blueShadow lg:mr-auto text-base sm:text-lg md:text-lg Rubik relative overflow-hidden px-6 py-3 group rounded-full bg-slate-200 text-black cursor-pointer">
+                <a class="blueShadow lg:mr-auto text-base sm:text-md md:text-md Rubik relative overflow-hidden px-6 py-3 group rounded-full text-black cursor-pointer">
                     <div class="absolute top-0 right-full w-full h-full">
                     </div>
-                    <h4 class="duration-200 hover:text-violet-400">Graphic Design</h4>
+                    <h4 class="duration-200 text-slate-300 hover:text-violet-400">Graphic Design</h4>
                 </a>
             </div>
-            <div class="flex flex-col mx-auto md:flex-row justify-center gap-6">
+            <div class="flex flex-col mt-32 mx-auto md:flex-row justify-center gap-6">
                 <div>
                     <div class="px-4 py-4 max-w-sm overflow-hidden bg-white shadow-md rounded-md">
                         <img class="w-full rounded-md" src="project-card-lottie.png" alt="Project">
@@ -34,11 +34,11 @@
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
                     </p>
                     </div>
-                        <div class="px-2 pt-4 pb-2">
+                        <!-- <div class="px-2 pt-4 pb-2">
                             <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
                             <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
                             <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div>
@@ -50,11 +50,11 @@
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
                     </p>
                     </div>
-                        <div class="px-2 pt-4 pb-2">
+                        <!-- <div class="px-2 pt-4 pb-2">
                             <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
                             <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
                             <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div>
@@ -66,16 +66,16 @@
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
                     </p>
                     </div>
-                        <div class="px-2 pt-4 pb-2">
+                        <!-- <div class="px-2 pt-4 pb-2">
                             <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
                             <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
                             <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
-            <div class="flex flex-col mx-auto md:flex-row justify-center lg:justify-start text-center lg:text-center gap-6 md:gap-8 lg:gap-10">
-            <a class="blueShadow lg:mr-auto text-base sm:text-lg md:text-lg Rubik relative overflow-hidden px-6 py-3 group rounded-full bg-slate-100 text-black cursor-pointer">
+            <div class="flex flex-col mx-auto mb-32 md:flex-row justify-center lg:justify-start text-center lg:text-center gap-6 md:gap-8 lg:gap-10">
+            <a class="blueShadow lg:mr-auto text-base sm:text-lg md:text-lg Rubik relative overflow-hidden px-6 py-3 group rounded-lg bg-slate-100 text-black cursor-pointer">
                 <div class="absolute top-0 right-full w-full h-full bg-slate-400 opacity-20 group-hover:translate-x-full z-0 duration-200">
                 </div>
                 <h4 class="relative z">See More of My Work</h4>
@@ -86,6 +86,18 @@
                 <div class="inline-block lg:text-lg md:text-lg sm:text-md mb-2 mx-2">HTML</div>
                 <div class="inline-block lg:text-lg md:text-lg sm:text-md mb-2 mx-2">CSS</div>
                 <div class="inline-block lg:text-lg md:text-lg sm:text-md mb-2 mx-2">UX</div>
+                <div class="inline-block lg:text-lg md:text-lg sm:text-md mb-2 mx-2">UI</div>
+                <div class="inline-block lg:text-lg md:text-lg sm:text-md mb-2 mx-2">Figma</div>
+                <div class="inline-block lg:text-lg md:text-lg sm:text-md mb-2 mx-2">Azure</div>
+                <div class="inline-block lg:text-lg md:text-lg sm:text-md mb-2 mx-2">Jira</div>
+                <div class="inline-block lg:text-lg md:text-lg sm:text-md mb-2 mx-2">TailwindCSS</div>
+                <div class="inline-block lg:text-lg md:text-lg sm:text-md mb-2 mx-2">Svelte</div>
+            </div>
+
+            <div>
+                <div>
+                    <div class="inline-block "></div>
+                
             </div>
 
             <section class>
@@ -102,18 +114,16 @@
                         </div>
                         <div class="sm:col-span-2">
                             <label for="message" class="block mb-2 text-sm text-left font-medium">Your message</label>
-                            <textarea id="message" rows="6" class="block p-2.5 w-full text-sm  bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..."></textarea>
+                            <textarea id="message" rows="6" class="block p-2.5 w-full text-sm  bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..." required></textarea>
                         </div>
-                        <div class="flex flex-col mx-auto md:flex justify-center text-center lg:text center gap-6 md:gap-8 lg:gap-10"> 
-                            <div class="blueShadow lg:mr-auto text-base sm:text-lg md:text-lg Rubik relative overflow-hidden px-6 py-3 group rounded-full bg-black text-black cursor-pointer">
-                            <div class="absolute top-0 right-full w-full h-full bg-slate-400 opacity-20 group-hover:translate-x-full z-0 duration-200">
-                            </div> 
-                            <button type="submit" class="text-sm text-white">Send message</button>
+                        <div class="flex flex-col mx-auto md:flex justify-center text-center lg:text-center gap-6 md:gap-8 lg:gap-10"> 
+                            <div class="blueShadow mx-auto text-base sm:text-lg md:text-lg Rubik relative overflow-hidden px-6 py-3 group rounded-lg bg-black text-black cursor-pointer">
+                                <div class="absolute top-0 right-full w-full h-full bg-slate-400 opacity-20 group-hover:translate-x-full z-0 duration-200">
+                                </div> 
+                                <button type="submit" class="text-lg text-white hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send message</button>
+                            </div>
                         </div>
-                    </form>
-                    
-                    
-                </div>
+                    </form>    
               </section>
               
 
