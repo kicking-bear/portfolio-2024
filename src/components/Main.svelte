@@ -18,10 +18,10 @@
                     <h4 class="relative z">UX/UI</h4>
                 </a>
                 
-                <a class="blueShadow lg:mr-auto text-base sm:text-md md:text-md Rubik relative overflow-hidden px-6 py-3 group rounded-full text-black cursor-pointer">
+                <a class="blueShadow lg:mr-auto text-base sm:text-md md:text-md Rubik relative overflow-hidden px-6 py-3 group rounded-full text-black cursor-pointer text-slate-300 hover:text-violet-400">
                     <div class="absolute top-0 right-full w-full h-full">
                     </div>
-                    <h4 class="duration-200 text-slate-300 hover:text-violet-400">Graphic Design</h4>
+                    <h4 class="duration-200">Graphic Design</h4>
                 </a>
             </div>
             <div class="flex flex-col mt-32 mx-auto md:flex-row justify-center gap-6">
@@ -100,7 +100,7 @@
                 
             </div>
 
-            <section class>
+            <section class id="contact-form">
                 <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
                     <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center">Let's Connect!</h2>
                     <form action="#" class="space-y-8">
@@ -123,7 +123,8 @@
                                 <button type="submit" class="text-lg text-white hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send message</button>
                             </div>
                         </div>
-                    </form>    
+                    </form>
+                </div>    
               </section>
               
 
