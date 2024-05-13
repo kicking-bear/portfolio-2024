@@ -11,20 +11,20 @@
             <!-- <p class="text-base text-center sm:text-lg md:text-xl">
                 I'm a <b>designer</b> who loves technology. I pride myself on versatility and my ability to offer real value to businesses by finding creative solutions.
             </p> -->
-            <div class="flex flex-col mx-auto md:flex-row justify-center lg:justify-start text-center lg:text-center shadow-inner bg-slate-100 gap-1 rounded-full">
-                <a class="blueShadow lg:mr-auto text-base sm:text-md md:text-md Rubik relative overflow-hidden px-6 py-3 group rounded-full bg-violet-400 text-white cursor-default">
+            <div class="flex flex-row mx-auto justify-center lg:justify-start text-center lg:text-center max-h-12 shadow-inner bg-slate-100 gap-1 rounded-full">
+                <a class="blueShadow lg:mr-auto text-base Rubik relative overflow-hidden px-6 py-3 group rounded-full bg-violet-400 text-white cursor-default flex-grow">
                     <div class="absolute top-0 right-full w-full h-full">
                     </div>
                     <h4 class="relative z">UX/UI</h4>
                 </a>
                 
-                <a class="blueShadow lg:mr-auto text-base sm:text-md md:text-md Rubik relative overflow-hidden px-6 py-3 group rounded-full text-black cursor-pointer text-slate-300 hover:text-violet-400">
+                <a class="blueShadow lg:mr-auto text-base Rubik relative overflow-hidden px-6 py-3 group rounded-full text-black cursor-pointer text-slate-300 hover:text-violet-400 flex-grow">
                     <div class="absolute top-0 right-full w-full h-full">
                     </div>
                     <h4 class="duration-200">Graphic Design</h4>
                 </a>
             </div>
-            <div class="flex flex-col mt-32 mx-auto md:flex-row justify-center gap-6">
+            <div class="flex flex-col lg:mt-32 md:mt-16 sm:mt-16 mx-auto md:flex-row justify-center gap-6">
                 <div>
                     <div class="px-4 py-4 max-w-sm overflow-hidden bg-white shadow-md rounded-md">
                         <img class="w-full rounded-md" src="project-card-lottie.png" alt="Project">
@@ -95,9 +95,31 @@
             </div>
 
             <div>
-                <div>
-                    <div class="inline-block "></div>
-                
+                <div class="flex flex-row gap-3">
+                    <div>
+                    <img class="inline-block w-full rounded-md drop-shadow-md" src="folder-closed.svg" alt="Ascendion">
+                        <h4 class="text-left overflow-hidden whitespace-nowrap text-ellipsis">Ascendion</h4>
+                    </div>
+                    <div>
+                        <img class="inline-block w-full rounded-md drop-shadow-md" src="folder-closed.svg" alt="Ascendion">
+                        <h4 class="text-left overflow-hidden whitespace-nowrap text-ellipsis">Martindale-Hubbell</h4>
+                    </div>
+                    <div>
+                        <img class="inline-block w-full rounded-md drop-shadow-md" src="folder-closed.svg" alt="Ascendion">
+                        <h4 class="text-left overflow-hidden whitespace-nowrap text-ellipsis">CustomPrint Lab</h4>
+                    </div>
+                    <div>
+                        <img class="inline-block w-full rounded-md drop-shadow-md" src="folder-closed.svg" alt="Ascendion">
+                        <h4 class="text-left overflow-hidden whitespace-nowrap text-ellipsis">Sadowado</h4>
+                    </div>
+                    <div>
+                        <img class="inline-block w-full rounded-md drop-shadow-md" src="folder-closed.svg" alt="Ascendion">
+                        <h4 class="text-left overflow-hidden whitespace-nowrap text-ellipsis">My Resume</h4>
+                    </div>
+                    <div class="bg-slate-400 w-full">
+
+                    </div>
+                </div>
             </div>
 
             <section class id="contact-form">
