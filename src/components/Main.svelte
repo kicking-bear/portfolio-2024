@@ -5,7 +5,7 @@
 <main class="flex flex-col flex-1 p-4">
     <section id="introPage" class="grid grid-cols-1 lg:grid-cols-1 gap-10 py-8  sm:py-14">
         <div class="flex flex-col lg:justify-center text-center lg:text-center gap-6 md:gap-8 lg:gap-10">
-            <h2 class= "font-semibold text-4xl">
+            <h2 class="font-semibold text-4xl">
                 What are you looking for?
             </h2>
             <!-- <p class="text-base text-center sm:text-lg md:text-xl">
@@ -94,30 +94,40 @@
                 <div class="inline-block lg:text-lg md:text-lg sm:text-md mb-2 mx-2">Svelte</div>
             </div>
 
-            <div>
-                <div class="flex flex-row gap-3">
-                    <div>
-                    <img class="inline-block w-full rounded-md drop-shadow-md" src="folder-closed.svg" alt="Ascendion">
-                        <h4 class="text-left overflow-hidden whitespace-nowrap text-ellipsis">Ascendion</h4>
+            <div class="flex lg:flex-row flex-col gap-3 px-12 py-48 outline outline-2 outline-slate-900 rounded-md bg-slate-100">
+                <div class="my-auto py-12 justify-center sm:items-center">
+                <h2 class="text-3xl font-semibold text-left">Get to know me!</h2>
+                <h4 class="text-left pb-2">TLDR</h4>
+                <div class="flex flex-wrap gap-2 my-auto">
+                    <div class="w-32 flex-shrink-0 px-2 py-2">
+                        <img class="inline-block w-full h-full rounded-md drop-shadow-md cursor-pointer" src="folder-open.svg" alt="folder-icon">
+                        <h4 class="text-left text-sm overflow-hidden whitespace-nowrap text-ellipsis">Ascendion</h4>
                     </div>
-                    <div>
-                        <img class="inline-block w-full rounded-md drop-shadow-md" src="folder-closed.svg" alt="Ascendion">
-                        <h4 class="text-left overflow-hidden whitespace-nowrap text-ellipsis">Martindale-Hubbell</h4>
+                    <div class="w-32 flex-shrink-0 px-2 py-2">
+                        <img class="inline-block w-full h-full rounded-md drop-shadow-md cursor-pointer" src="folder-closed.svg" alt="folder-icon">
+                        <div class="flex-grow overflow-hidden">
+                        <h4 class="text-left text-sm overflow-hidden whitespace-nowrap text-ellipsis">Martindale-Hubbell</h4>
+                        </div>
                     </div>
-                    <div>
-                        <img class="inline-block w-full rounded-md drop-shadow-md" src="folder-closed.svg" alt="Ascendion">
-                        <h4 class="text-left overflow-hidden whitespace-nowrap text-ellipsis">CustomPrint Lab</h4>
+                    <div class="w-32 flex-shrink-0 px-2 py-2">
+                        <img class="inline-block w-full h-full rounded-md drop-shadow-md cursor-pointer" src="folder-closed.svg" alt="folder-icon">
+                        <h4 class="text-left text-sm overflow-hidden whitespace-nowrap text-ellipsis">Custom Print Lab</h4>
                     </div>
-                    <div>
-                        <img class="inline-block w-full rounded-md drop-shadow-md" src="folder-closed.svg" alt="Ascendion">
-                        <h4 class="text-left overflow-hidden whitespace-nowrap text-ellipsis">Sadowado</h4>
+                    <div class="w-32 flex-shrink-0 px-2 py-2">
+                        <img class="inline-block w-full h-full rounded-md drop-shadow-md cursor-pointer" src="folder-closed.svg" alt="folder-icon">
+                        <h4 class="text-left text-sm overflow-hidden whitespace-nowrap text-ellipsis">Sadowado</h4>
                     </div>
-                    <div>
-                        <img class="inline-block w-full rounded-md drop-shadow-md" src="folder-closed.svg" alt="Ascendion">
-                        <h4 class="text-left overflow-hidden whitespace-nowrap text-ellipsis">My Resume</h4>
+                    <div class="w-32 flex-shrink-0 px-2 py-2">
+                        <img class="inline-block w-full h-full rounded-md drop-shadow-md cursor-pointer" src="folder-closed.svg" alt="folder-icon">
+                        <h4 class="text-left text-sm overflow-hidden whitespace-nowrap text-ellipsis">My Resume</h4>
                     </div>
-                    <div class="bg-slate-400 w-full">
-
+                </div>
+                </div>
+                <div class="flex bg-slate-900 w-full rounded-md h-96 drop-shadow-md shadow-inner">
+                    <div class="flex px-2 pt-2 gap-1">
+                        <div class="bg-red-600 rounded-full w-3 h-3"></div>
+                        <div class="bg-blue-600 rounded-full w-3 h-3"></div>
+                        <div class="bg-green-600 rounded-full w-3 h-3"></div>
                     </div>
                 </div>
             </div>
