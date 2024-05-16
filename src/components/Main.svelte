@@ -123,12 +123,13 @@
                     </div>
                 </div>
                 </div>
-                <div class="flex bg-slate-900 w-full rounded-md h-96 drop-shadow-md shadow-inner">
-                    <div class="flex px-2 pt-2 gap-1">
+                <div class="flex flex-col bg-slate-900 w-full rounded-md h-96 drop-shadow-md shadow-inner">
+                    <div class="flex px-2 pt-2 gap-1 w-full">
                         <div class="bg-red-600 rounded-full w-3 h-3"></div>
                         <div class="bg-blue-600 rounded-full w-3 h-3"></div>
                         <div class="bg-green-600 rounded-full w-3 h-3"></div>
                     </div>
+                    <div class="flex bg-slate-200 rounded-md mx-4 my-4" style="height: 400px;"></div>
                 </div>
             </div>
 
