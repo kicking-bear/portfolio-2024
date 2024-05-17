@@ -12,32 +12,45 @@
                 I'm a <b>designer</b> who loves technology. I pride myself on versatility and my ability to offer real value to businesses by finding creative solutions.
             </p> -->
             <div class="flex flex-row mx-auto justify-center lg:justify-start text-center lg:text-center max-h-12 shadow-inner bg-slate-100 gap-1 rounded-full">
-                <a class="blueShadow lg:mr-auto text-base Rubik relative overflow-hidden px-6 py-3 group rounded-full bg-violet-400 text-white cursor-default flex-grow">
+                <a class="blueShadow lg:mr-auto text-base Rubik relative overflow-hidden px-6 py-3 group rounded-full bg-violet-200 text-violet-800 cursor-default flex-grow">
                     <div class="absolute top-0 right-full w-full h-full">
                     </div>
                     <h4 class="relative z">UX/UI</h4>
                 </a>
                 
-                <a class="blueShadow lg:mr-auto text-base Rubik relative overflow-hidden px-6 py-3 group rounded-full text-black cursor-pointer text-slate-300 hover:text-violet-400 flex-grow">
+                <a class="blueShadow lg:mr-auto text-base Rubik relative overflow-hidden px-6 py-3 group rounded-full text-black cursor-pointer text-slate-950 flex-grow">
                     <div class="absolute top-0 right-full w-full h-full">
                     </div>
                     <h4 class="duration-200">Graphic Design</h4>
                 </a>
             </div>
+
+            <div class="container">
+                <div class="tabs">
+                    <input type="radio" id="radio-1" name="tabs" checked />
+                    <label class="tab" for="radio-1">Upcoming<span class="notification">2</span></label>
+                    <input type="radio" id="radio-2" name="tabs" />
+                    <label class="tab" for="radio-2">Development</label>
+                    <input type="radio" id="radio-3" name="tabs" />
+                    <label class="tab" for="radio-3">Completed</label>
+                    <span class="glider"></span>
+                </div>
+            </div>
+
             <div class="flex flex-col lg:mt-32 md:mt-16 sm:mt-16 mx-auto md:flex-row justify-center gap-6">
                 <div>
                     <div class="px-4 py-4 max-w-sm overflow-hidden bg-white shadow-md rounded-md">
                         <img class="w-full rounded-md" src="project-card-lottie.png" alt="Project">
                         <div class="px-2 py-4">
-                        <div class="font-bold text-xl text-left mb-2">The Coldest Sunset</div>
-                    <p class="text-gray-700 text-base text-left">
+                        <div class="font-bold text-xl text-left mb-2 text-slate-950">The Coldest Sunset</div>
+                    <p class="text-slate-950 text-base text-left">
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
                     </p>
                     </div>
                         <!-- <div class="px-2 pt-4 pb-2">
-                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-slate-950 mr-2 mb-2">#photography</span>
+                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-slate-950 mr-2 mb-2">#travel</span>
+                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-slate-950 mr-2 mb-2">#winter</span>
                         </div> -->
                     </div>
                 </div>
@@ -45,15 +58,15 @@
                     <div class="px-4 py-4 max-w-sm overflow-hidden bg-white shadow-md rounded-md">
                         <img class="w-full rounded-md" src="project-card-lottie.png" alt="Project">
                         <div class="px-2 py-4">
-                        <div class="font-bold text-xl text-left mb-2">The Coldest Sunset</div>
-                    <p class="text-gray-700 text-base text-left">
+                        <div class="font-bold text-xl text-left mb-2 text-slate-950">The Coldest Sunset</div>
+                    <p class="text-slate-950 text-base text-left">
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
                     </p>
                     </div>
                         <!-- <div class="px-2 pt-4 pb-2">
-                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-slate-950 mr-2 mb-2">#photography</span>
+                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-slate-950 mr-2 mb-2">#travel</span>
+                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-slate-950 mr-2 mb-2">#winter</span>
                         </div> -->
                     </div>
                 </div>
@@ -61,28 +74,28 @@
                     <div class="px-4 py-4 max-w-sm overflow-hidden bg-white shadow-md rounded-md">
                         <img class="w-full rounded-md" src="project-card-lottie.png" alt="Project">
                         <div class="px-2 py-4">
-                        <div class="font-bold text-xl text-left mb-2">The Coldest Sunset</div>
-                    <p class="text-gray-700 text-base text-left">
+                        <div class="font-bold text-xl text-left mb-2 text-slate-950">The Coldest Sunset</div>
+                    <p class="text-slate-950 text-base text-left">
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
                     </p>
                     </div>
                         <!-- <div class="px-2 pt-4 pb-2">
-                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-slate-950 mr-2 mb-2">#photography</span>
+                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-slate-950 mr-2 mb-2">#travel</span>
+                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-slate-950 mr-2 mb-2">#winter</span>
                         </div> -->
                     </div>
                 </div>
             </div>
             <div class="flex flex-col mx-auto mb-32 md:flex-row justify-center lg:justify-start text-center lg:text-center gap-6 md:gap-8 lg:gap-10">
-            <a class="blueShadow lg:mr-auto text-base sm:text-lg md:text-lg Rubik relative overflow-hidden px-6 py-3 group rounded-lg bg-slate-100 text-black cursor-pointer">
+            <a class="blueShadow lg:mr-auto text-base sm:text-lg md:text-lg Rubik relative overflow-hidden px-6 py-3 group rounded-lg bg-slate-100 text-slate-950 cursor-pointer">
                 <div class="absolute top-0 right-full w-full h-full bg-slate-400 opacity-20 group-hover:translate-x-full z-0 duration-200">
                 </div>
                 <h4 class="relative z">See More of My Work</h4>
             </a>
             </div>
 
-            <div class="px-2 pt-4 pb-2 gap-6">
+            <div class="px-2 pt-4 pb-2 gap-6 text-slate-950">
                 <div class="inline-block lg:text-lg md:text-lg sm:text-md mb-2 mx-2">HTML</div>
                 <div class="inline-block lg:text-lg md:text-lg sm:text-md mb-2 mx-2">CSS</div>
                 <div class="inline-block lg:text-lg md:text-lg sm:text-md mb-2 mx-2">UX</div>
@@ -94,42 +107,43 @@
                 <div class="inline-block lg:text-lg md:text-lg sm:text-md mb-2 mx-2">Svelte</div>
             </div>
 
-            <div class="flex lg:flex-row flex-col gap-3 px-12 py-48 outline outline-2 outline-slate-900 rounded-md bg-slate-100">
-                <div class="my-auto py-12 justify-center sm:items-center">
-                <h2 class="text-3xl font-semibold text-left">Get to know me!</h2>
-                <h4 class="text-left pb-2">TLDR</h4>
-                <div class="flex flex-wrap gap-2 my-auto">
-                    <div class="w-32 flex-shrink-0 px-2 py-2">
-                        <img class="inline-block w-full h-full rounded-md drop-shadow-md cursor-pointer" src="folder-open.svg" alt="folder-icon">
-                        <h4 class="text-left text-sm overflow-hidden whitespace-nowrap text-ellipsis">Ascendion</h4>
-                    </div>
-                    <div class="w-32 flex-shrink-0 px-2 py-2">
-                        <img class="inline-block w-full h-full rounded-md drop-shadow-md cursor-pointer" src="folder-closed.svg" alt="folder-icon">
-                        <div class="flex-grow overflow-hidden">
-                        <h4 class="text-left text-sm overflow-hidden whitespace-nowrap text-ellipsis">Martindale-Hubbell</h4>
+            <div class="flex lg:flex-row flex-col gap-3 px-4 sm:px-8 md:px-12 py-12 sm:py-24 md:py-48 outline outline-2 outline-slate-900 rounded-md bg-slate-100 w-full">
+                <div class="my-auto py-6 sm:py-12 justify-center outline outline-1 outline-red-500 w-full">
+                    <h2 class="text-xl sm:text-2xl md:text-3xl font-semibold text-left px-2">Get to know me!</h2>
+                    <h4 class="text-left px-2 pb-2 text-base sm:text-lg">TLDR</h4>
+                    <div class="flex flex-wrap gap-2 my-auto w-full">
+                        <div class="w-24 sm:w-28 md:w-32 lg:w-36 px-1 sm:px-2 py-2">
+                            <img class="inline-block w-full h-full rounded-md drop-shadow-md cursor-pointer" src="folder-open.svg" alt="folder-icon">
+                            <h4 class="text-left text-xs sm:text-sm md:text-base overflow-hidden whitespace-nowrap text-ellipsis">Ascendion</h4>
+                        </div>
+                        <div class="w-24 sm:w-28 md:w-32 lg:w-36 px-1 sm:px-2 py-2">
+                            <img class="inline-block w-full h-full rounded-md drop-shadow-md cursor-pointer" src="folder-closed.svg" alt="folder-icon">
+                            <h4 class="text-left text-xs sm:text-sm md:text-base overflow-hidden whitespace-nowrap text-ellipsis">Martindale-Hubbell</h4>
+                        </div>
+                        <div class="w-24 sm:w-28 md:w-32 lg:w-36 px-1 sm:px-2 py-2">
+                            <img class="inline-block w-full h-full rounded-md drop-shadow-md cursor-pointer" src="folder-closed.svg" alt="folder-icon">
+                            <h4 class="text-left text-xs sm:text-sm md:text-base overflow-hidden whitespace-nowrap text-ellipsis">Custom Print Lab</h4>
+                        </div>
+                        <div class="w-24 sm:w-28 md:w-32 lg:w-36 px-1 sm:px-2 py-2">
+                            <img class="inline-block w-full h-full rounded-md drop-shadow-md cursor-pointer" src="folder-closed.svg" alt="folder-icon">
+                            <h4 class="text-left text-xs sm:text-sm md:text-base overflow-hidden whitespace-nowrap text-ellipsis">Sadowado</h4>
+                        </div>
+                        <div class="w-24 sm:w-28 md:w-32 lg:w-36 px-1 sm:px-2 py-2">
+                            <img class="inline-block w-full h-full rounded-md drop-shadow-md cursor-pointer" src="folder-closed.svg" alt="folder-icon">
+                            <h4 class="text-left text-xs sm:text-sm md:text-base overflow-hidden whitespace-nowrap text-ellipsis">My Resume</h4>
                         </div>
                     </div>
-                    <div class="w-32 flex-shrink-0 px-2 py-2">
-                        <img class="inline-block w-full h-full rounded-md drop-shadow-md cursor-pointer" src="folder-closed.svg" alt="folder-icon">
-                        <h4 class="text-left text-sm overflow-hidden whitespace-nowrap text-ellipsis">Custom Print Lab</h4>
-                    </div>
-                    <div class="w-32 flex-shrink-0 px-2 py-2">
-                        <img class="inline-block w-full h-full rounded-md drop-shadow-md cursor-pointer" src="folder-closed.svg" alt="folder-icon">
-                        <h4 class="text-left text-sm overflow-hidden whitespace-nowrap text-ellipsis">Sadowado</h4>
-                    </div>
-                    <div class="w-32 flex-shrink-0 px-2 py-2">
-                        <img class="inline-block w-full h-full rounded-md drop-shadow-md cursor-pointer" src="folder-closed.svg" alt="folder-icon">
-                        <h4 class="text-left text-sm overflow-hidden whitespace-nowrap text-ellipsis">My Resume</h4>
-                    </div>
                 </div>
-                </div>
-                <div class="flex flex-col bg-slate-900 w-full rounded-md h-96 drop-shadow-md shadow-inner">
+                <div class="flex flex-col bg-slate-900 w-full rounded-md h-full min-h-96 drop-shadow-md shadow-inner">
                     <div class="flex px-2 pt-2 gap-1 w-full">
                         <div class="bg-red-600 rounded-full w-3 h-3"></div>
                         <div class="bg-blue-600 rounded-full w-3 h-3"></div>
                         <div class="bg-green-600 rounded-full w-3 h-3"></div>
                     </div>
-                    <div class="flex bg-slate-200 rounded-md mx-4 my-4" style="height: 400px;"></div>
+                    <div class="flex outline outline-1 outline-yellow-500 rounded-md mx-4 my-4 h-full">
+                        <h2 class="text-white text-lg">Ascendion</h2>
+                        <img class="w-8 h-8 outline outline-1 outline-green-500" src="ascendion.svg" alt="ascendion-icon">
+                    </div>
                 </div>
             </div>
 
@@ -150,7 +164,7 @@
                             <textarea id="message" rows="6" class="block p-2.5 w-full text-sm  bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..." required></textarea>
                         </div>
                         <div class="flex flex-col mx-auto md:flex justify-center text-center lg:text-center gap-6 md:gap-8 lg:gap-10"> 
-                            <div class="blueShadow mx-auto text-base sm:text-lg md:text-lg Rubik relative overflow-hidden px-6 py-3 group rounded-lg bg-black text-black cursor-pointer">
+                            <div class="blueShadow mx-auto text-base sm:text-lg md:text-lg Rubik relative overflow-hidden px-6 py-3 group rounded-lg bg-black text-slate-950 cursor-pointer">
                                 <div class="absolute top-0 right-full w-full h-full bg-slate-400 opacity-20 group-hover:translate-x-full z-0 duration-200">
                                 </div> 
                                 <button type="submit" class="text-lg text-white hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send message</button>
